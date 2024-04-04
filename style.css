@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap'); 
+ 
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: "Plus Jakarta Sans", sans-serif; 
+    list-style: none; 
+    text-decoration: none; 
+    color: inherit; 
+} 
+.container { 
+    width: 90%; 
+    margin: 0 auto; 
+} 
+ 
+nav { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 30px 0 31px; 
+} 
+ 
+.nav-left { 
+    display: flex; 
+    align-items: center; 
+    gap: 50px; 
+} 
+ 
+.nav-left ul { 
+    display: flex; 
+    align-items: center; 
+    gap: 30px; 
+} 
+ 
+.nav-right button { 
+    padding: 12px 24px; 
+    color: #fff; 
+    background: #000; 
+    border-radius: 6px; 
+    border: 1px solid transparent; 
+} 
+ 
+.showcase { 
+    display: flex; 
+    align-items: center; 
+ 
+} 
+ 
+.showcase>div { 
+    flex: 1; 
+} 
+ 
+.showcase iframe { 
+    width: 100%; 
+} 
+ 
+.showcase h1 { 
+    font-size: 56px; 
+} 
+ 
+.showcase p { 
+    max-width: 537px; 
+    color: rgba(99, 111, 135, 1); 
+    font-size: 18px; 
+    line-height: 27px; 
+    padding: 20px 0 40px; 
+} 
+ 
+.showcase button { 
+    padding: 20px 40px; 
+    background: rgba(26, 171, 123, 1); 
+    border-radius: 6px; 
+    border: 1px solid transparent; 
+    color: #fff; 
+    font-weight: 700; 
+} 
+ 
+.help { 
+    margin-top: 110px; 
+    padding: 50px 0; 
+    background: rgba(242, 244, 246, 1); 
+} 
+ 
+.title { 
+    text-align: center; 
+    font-weight: 600; 
+    font-size: 36px; 
+    margin-bottom: 40px; 
+} 
+ 
+.cards { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1%; 
+    row-gap: 32px; 
+} 
+ 
+.card { 
+    width: 32%; 
+    padding: 30px 40px; 
+    border: 2px solid rgba(225, 231, 237, 1); 
+    border-radius: 6px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    gap: 20px; 
+    min-height: 358px; 
+    transition: 0.5s ease-in-out; 
+} 
+ 
+.card-header { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+ 
+.card-header h3 { 
+    font-size: 32px; 
+    line-height: 45px; 
+} 
+ 
+.card p { 
+    font-size: 18px; 
+    line-height: 27px; 
+    color: rgba(99, 111, 135, 1); 
+} 
+ 
+.card a { 
+    font-weight: 700; 
+    font-size: 20px; 
+    line-height: 28px; 
+} 
+ 
+.card:hover { 
+    background: rgba(26, 171, 123, 1); 
+    color: #fff; 
+} 
+ 
+.card:hover p { 
+    color: #fff; 
+} 
+ 
+.card:hover a { 
+    text-decoration: underline; 
+}
